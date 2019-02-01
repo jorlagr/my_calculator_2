@@ -12,6 +12,9 @@ function sine() {
 function forth() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
+function square() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 2);
 }
 </script>
 </head>
@@ -19,6 +22,7 @@ function forth() {
  <h1>Calculadora de Jorge Latorre</h1>
  Number:
  <input type="text" id="n1"><p>
+ <button onclick="square()"> x^2 </button>
  <button onclick="cube()"> x^3 </button>
  <button onclick="sine()"> sine </button>
  <button onclick="forth()"> x^4 </button>
